@@ -1,4 +1,5 @@
 import Meta from "../components/head";
+import Person from "../components/Person";
 
 export default function Home() {
   return (
@@ -9,7 +10,13 @@ export default function Home() {
           Virtual CodeDay: Intro to GitHub
         </h1>
         <section>
-          <h2>hi hi hi</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3">
+            <Person
+              name="Naaaaame0"
+              ghUsername="eilla1"
+              randomQuote="hihihihih"
+            />
+          </div>
         </section>
       </main>
     </div>

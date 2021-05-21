@@ -24,6 +24,18 @@ export default function Meta() {
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content={twitter} />
       <meta name="twitter:creator" content={twitter} />
+      <link
+        rel="preload"
+        href="/font/Sofia/Sofia Pro Regular Az.otf"
+        as="font"
+        crossOrigin=""
+      />
+      <link
+        rel="preload"
+        href="/font/Sofia/Sofia Pro Bold Az.otf"
+        as="font"
+        crossOrigin=""
+      />
     </Head>
   );
 }
