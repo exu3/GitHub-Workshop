@@ -1,11 +1,11 @@
 import Head from "next/head";
 
-export default function HeadObject({ children }) {
-  const title = "Hello World";
-  const description = "This is a Next.js boilerplate.";
-  const keywords = "put some fun keywords here";
-  const author = "Ella";
-  const twitter = "@ella";
+export default function Meta() {
+  const title = "CodeDay - Intro to Github";
+  const description = "Learn the basics of Git/GitHub!";
+  const keywords = "codeday, github, hello world";
+  const author = "";
+  const twitter = "@codeday";
   //const image = "/ogimage.png"; // This is your OpenGraph image
   return (
     <Head>
@@ -24,8 +24,6 @@ export default function HeadObject({ children }) {
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content={twitter} />
       <meta name="twitter:creator" content={twitter} />
-      {/* Add analytics here */}
-      {children}
     </Head>
   );
 }
