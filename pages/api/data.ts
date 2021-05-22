@@ -6,7 +6,7 @@ interface ThePeople{
     
     name: string,
     githubUser: string,
-    randomQuote: string
+    quote: string
     
     
 
@@ -15,19 +15,32 @@ interface ThePeople{
 export default async (req, res) => {
     
     let data:ThePeople[]=[];
-    fs.readdir(path.join(__dirname,"..", "..", "..", "..", "people"),async (err, files)=>{
-       files.forEach(file => {
-           fs.readFile(path.join(__dirname,"..", "..", "..", "..", "people", file), "utf8", (err,content)=>{
-               console.log(content)
-               data.push(JSON.parse(content))
-               
-           })
-        
-       });
-       
-       await res.status(200).json(data);
-       
-    } )
-    console.log(data)
     
-};
+    
+    const files = fs.readdirSync(path.join(__dirname,"..", "..", "..", "..", "people"))
+    
+    files.forEach(file => {
+        const content = fs.readFileSync(path.join(__dirname,"..", "..", "..", "..", "people", file), "utf8")
+            
+            data.push(JSON.parse(content))
+            
+            
+        })
+
+        try{
+            data = data.sort(() => Math.random() - 0.5)
+        }catch(err){
+
+        }
+        res.status(200).json(data)
+     
+    
+       
+       
+       
+    
+    
+}
+    
+    
+    
