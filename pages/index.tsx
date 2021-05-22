@@ -19,7 +19,7 @@ export default function Home() {
       <main className="m-8 md:mx-24">
         <section className="flex flex-col-reverse md:flex-row items-center justify-between">
           <div>
-            <h1 className="font-sofia font-bold text-5xl py-8">
+            <h1 className="font-bold text-5xl py-8">
               Virtual CodeDay: Intro to GitHub
             </h1>
           </div>

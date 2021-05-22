@@ -7,7 +7,16 @@ module.exports = {
         pink: "#FF9598",
       },
       fontFamily: {
-        sofia: "Sofia Pro, sans-serif",
+        sans: [
+                'Sofia Pro',
+                '-apple-system',
+                'BlinkMacSystemFont',
+                'Segoe UI',
+                'Roboto',
+                'Helvetica',
+                'Arial',
+                'sans-serif',
+                ],
       },
     },
   },

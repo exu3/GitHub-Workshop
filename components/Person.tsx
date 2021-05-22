@@ -8,7 +8,7 @@ export default function Person({ ghUsername, name, randomQuote }) {
             alt={`${name}'s profile picture`}
             className="w-32 h-32 rounded-full mx-auto border-4 border-pink"
           />
-          <h3 className="text-2xl font-sofia text-center font-semibold leading-loose">
+          <h3 className="text-2xl text-center font-semibold leading-loose">
             {name}
           </h3>
           <p className="font-light italic text-center">"{randomQuote}"</p>
