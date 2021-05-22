@@ -1,7 +1,12 @@
 import Meta from "../components/head";
 import Person from "../components/Person";
+import ella from '../people/ella.json';
+
+
 
 export default function Home() {
+  
+  
   return (
     <div>
       <Meta />
@@ -16,6 +21,8 @@ export default function Home() {
               ghUsername="eilla1"
               randomQuote="hihihihih"
             />
+            {JSON.stringify(ella)}
+            
           </div>
         </section>
       </main>
