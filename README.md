@@ -1,6 +1,10 @@
 # Intro to GitHub
 
-cod day cool
+kjhkjh
+i am creating a merge conflic thehehehheehheheheheehheheheheheh
+ehehehhehehhehehe
+hehehehhehehe
+cod day cool this is a test from shubham's branch
 
 ## What it includes
 
