@@ -1,6 +1,9 @@
 # Intro to GitHub
 
-cod day cool
+kjhkjh
+i am creating a merge conflic thehehehheehheheheheehheheheheheh
+ehehehhehehhehehe
+hehehehhehehe
 
 ## What it includes
 
