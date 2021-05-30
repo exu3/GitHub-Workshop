@@ -23,7 +23,7 @@ export default function Home() {
         <section className="flex flex-col-reverse md:flex-row items-center justify-between">
           <div>
             <h1 className="font-bold text-5xl py-8">
-              Virtual CodeDay: Intro to GitHub
+              Virtual CodeDay: Intro to Git & GitHub
             </h1>
           </div>
         </section>
