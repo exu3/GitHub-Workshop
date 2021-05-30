@@ -19,7 +19,7 @@ export default function Home() {
     <div className="dark:bg-gray-800 dark:text-white">
       <Meta />
       <Nav />
-      <main className="m-8 md:mx-24">
+      <main className="m-8 md:mx-24 h-full">
         <section className="flex flex-col-reverse md:flex-row items-center justify-between">
           <div>
             <h1 className="font-bold text-5xl py-8">
