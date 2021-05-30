@@ -1,4 +1,4 @@
-# Intro to GitHub
+# Intro to Git & GitHub
 
 kjhkjh
 i am creating a merge conflic thehehehheehheheheheehheheheheheh
@@ -10,7 +10,6 @@ cod day cool this is a test from shubham's branch
 
 - Next.js ([docs](https://nextjs.org/docs))
 - Tailwind CSS ([docs](https://tailwindcss.com/))
-- swr (@vercel)
 - react-icons ([icons](https://react-icons.github.io/react-icons/))
 
 ## How to contribute
