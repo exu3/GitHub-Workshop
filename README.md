@@ -1,10 +1,6 @@
 # Intro to Git & GitHub
 
-kjhkjh
-i am creating a merge conflic thehehehheehheheheheehheheheheheh
-ehehehhehehhehehe
-hehehehhehehe
-cod day cool this is a test from shubham's branch
+Virtual CodeDay Workshop!
 
 ## What it includes
 
