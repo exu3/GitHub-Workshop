@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "mdx-deck slides.mdx",
+    "build": "mdx-deck build slides.mdx",
+    "help": "mdx-deck"
+  },
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  },
+  "dependencies": {
+    "react-syntax-highlighter": "^15.4.3"
+  }
+}
