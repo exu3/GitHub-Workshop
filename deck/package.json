@@ -1,6 +1,10 @@
 {
+  "name": "git-workshop",
+  "version": "0.0.0",
+  "author": "Ella & Shubham (CodeDay)",
+  "license": "MIT",
   "scripts": {
-    "start": "mdx-deck slides.mdx",
+    "dev": "mdx-deck slides.mdx",
     "build": "mdx-deck build slides.mdx",
     "help": "mdx-deck"
   },
