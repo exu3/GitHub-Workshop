@@ -6,8 +6,152 @@ Welcome to the Intro to Git & Github Workshop! Here’s what to know...
 
 ---
 
-meow
+# What are we going to do today?
+
+- What is Git? What is Github?
+- Demo/ Walk-through
+- Make your own _pull request_!
 
 ---
 
-test
+# Meet your presenters
+
+<div style={{ display: "flex" }}>
+  <div style={{ paddingRight: "50px" }}>
+    <img
+      src="https://github.com/eilla1.png"
+      alt="Ella"
+      style={{ width: "300px", height: "300px" }}
+    />
+    <p>
+      Ella <br /> eilla1@codeday.org
+    </p>
+  </div>
+  <div>
+    <img
+      src="https://github.com/ShubhamPatilsd.png"
+      alt="Shubham"
+      style={{ width: "300px", height: "300px" }}
+    />
+    <p>
+      Shubham <br /> shupat@codeday.org
+    </p>
+  </div>
+</div>
+
+---
+
+#### Common Mistake
+
+# Git != Github
+
+We’ll go over this in the next few slides!
+
+---
+
+# They're not unrelated!
+
+Git and Github work hand in hand to provide a better experience to developers. It’s neat stuff!
+
+---
+
+# What is Git?
+
+- Version Control System (track changes made to the code)
+- Without VCS:
+  - You make changes to your code and it fails :(
+  - You can’t go back to the old working version of the code (unless you undo a bunch of times, which is hectic and unreliable)
+- With VCS:
+  - You make changes to your code and it fails :(
+  - No worries, we can revert back to the old version that works!
+  - Problem solved and you didn’t spend hours patching the broken code (maybe also mending your fingers from undoing your changes)
+
+---
+
+# More On Version Control
+
+- Version Control Systems allow us to track changes made to files.
+- Git is one of a number of options, some others being Subversion and Mercurial.
+- Git is a _Distributed Version Control System_, meaning that it does not require a central server…
+- Though most teams use a centralized model..
+- You can interact with git from the command line or through a GUI, like GitKraken, SourceTree, or Github Desktop.
+- Many IDEs also have git integration
+
+---
+
+# The Git Repository
+
+- `.git` keeps a set of files and metadata that track the history of your codebase.
+- Files like `.gitignore` help you configure and control your repository.
+- You can create a repository by running `git init`
+- ou can start using an existing repo by running `git clone`
+- When you clone a repository, you are creating a local copy of the repository. Once you start making changes, the local repo will no longer be identical to the remote.
+
+---
+
+# Local vs Remote
+
+- The local repo is the one you make changes on.
+- When you’ve made changes, you can push those to the remote. If you need to get changes someone else has made, you pull from the remote.
+- There are plenty of places to host a git repository. Probably the most widely known is Github.
+
+---
+
+# What is GitHub?
+
+- Github is a platform to host git repositories
+- If Git repositories are like buildings, Github would be the city that has the buildings
+- You can also make forks of repositories with different branches
+- Let’s say you make some changes to your fork of a repository and want those changes to actually be implemented, you can submit a pull request.
+- A pull request is basically you asking the managers of the official repository, “Hey, could you put my changes into the actual thing?”
+
+---
+
+# Git Flow
+
+- Git flow is one workflow model for git.
+- It is not the _only_ way to use git with a team. It is a very common model to follow, but remember that the best way to use git is the one that helps your team stay productive.
+- `main` branch
+- Development `dev` branch
+- Feature branches
+
+---
+
+# Merge Conflicts
+
+- A merge conflict occurs when two different commits edit the same file
+- Git will attempt to resolve them automatically, but sometimes it fails
+- If you `git merge` and encounter a conflict, you can fix it with any text editor.
+- Merge conflict marks in a file start with `<<<<<` and end with `>>>>>`.
+
+---
+
+```
+<<<<<
+This is the code you introduced in your branch
+======
+This is the code in the other branch
+>>>>>
+```
+
+---
+
+# Code Reviews
+
+- Code reviews are a critical part of any development process.
+- You can set the bounds and rules of what a code review entails.
+- Pull requests in Github are a good way of managing code reviews.
+
+---
+
+# Fun Fact
+
+Git was created by Linus Torvalds, the dude who made Linux!
+
+---
+
+# Demo Time!
+
+---
+
+# Resources
