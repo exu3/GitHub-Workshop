@@ -3,11 +3,7 @@ export default function Nav() {
   return (
     <div>
       <nav className="border-b p-3 flex justify-between px-5 dark:bg-gray-200 sticky">
-        <img
-          className="justify-left"
-          src="/codeday-text-color.svg"
-          width="180px"
-        />
+      
         <div className="justify-right">
           <a
             href="https://github.com/eilla1/GitHub-Workshop"
