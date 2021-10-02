@@ -1,4 +1,4 @@
-# Virtual CodeDay: Intro to Git & GitHub
+# Intro to Git & GitHub
 
 #### HOW TO CONTRIBUTE:
 
