@@ -7,18 +7,7 @@ export default function Footer() {
     <div className="pt-8">
       <hr />
       <div className="flex flex-col justify-center text-center">
-        <div>
-          <p className="p-2">
-            Made with &#9829; at{" "}
-            <a
-              href="https://virtual.codeday.org"
-              className="text-red-400 underline"
-            >
-              Virtual Code Day
-            </a>
-            .
-          </p>
-        </div>
+
         <div className="flex flex-row items-center space-x-3 justify-center">
           <p>Toggle theme:</p>{" "}
           <button

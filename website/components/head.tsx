@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 export default function Meta() {
-  const title = "CodeDay - Intro to Git/GitHub";
+  const title = "Intro to Git/GitHub";
   const description = "Learn the basics of Git/GitHub!";
   const keywords = "codeday, github, hello world";
   const author = "";

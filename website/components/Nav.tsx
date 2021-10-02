@@ -10,7 +10,7 @@ export default function Nav() {
         />
         <div className="justify-right">
           <a
-            href="https://github.com/eilla1/CodeDay-GitHubWorkshop"
+            href="https://github.com/eilla1/GitHub-Workshop"
             target="_blank"
             rel="noreferrer"
             className="hover:text-gray-500"
